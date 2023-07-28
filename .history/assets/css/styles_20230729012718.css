@@ -16,7 +16,6 @@ html {
   color: var(--primary-color-background, #131517);
   color: var(--text-color-dark-blue, #272633);
 }
-
 body {
   font-size: 1.6rem;
   font-family: "Sora", sans-serif;
@@ -589,9 +588,9 @@ a {
   top: 205px;
   left: 205px;
 }
-/* 
+
 .static--media__item {
-  position: absolute;
+  
   justify-content: space-between;
   align-items: center;
   width: 225px;
@@ -603,18 +602,20 @@ a {
 }
 
 .static--media__item:nth-child(1) {
+  position: absolute;
   top: 50px;
   left: 150px;
 }
 .static--media__item:nth-child(2) {
   top: 450px;
+  position: absolute;
   left: 150px;
 }
 .static--media__item:nth-child(3) {
   top: 150px;
-  left: 10px;
+  left: 190px;
 }
 .static--media__item:nth-child(4) {
   top: 150px;
   left: 150px;
-} */
+}
